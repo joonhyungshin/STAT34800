@@ -19,7 +19,7 @@ The University of Chicago
 - [Assignment 1: Bayesian decision theory](https://github.com/aschein/stat_348/blob/main/assignments/hw1/hw1.ipynb). Due **Monday April 3 at 11:59pm** on GradeScope. 
 - [Assignment 2: Logistic regression and beta-binomial updating](https://github.com/aschein/stat_348/blob/main/assignments/hw2/hw2.ipynb). Due **Monday April 10 at 11:59pm** on GradeScope. 
 - [Assignment 3: Exponential families, conjugacy, and entropy](https://github.com/aschein/stat_348/blob/main/assignments/hw3/hw3.pdf). Due **Monday April 17 at 11:59pm** on GradeScope. 
-- [Assignment 4: HMMs, belief propagation, variable elimination](https://github.com/aschein/stat_348/blob/main/assignments/hw4/hw4.pdf). Due **Monday May 1 at 11:59pm** on GradeScope. 
+- [Assignment 4: HMMs, belief propagation, variable elimination](https://github.com/aschein/stat_348/blob/main/assignments/hw4/hw4.pdf). Due **Tuesday May 2 at 11:59pm** on GradeScope. 
 
 ## Schedule
 
@@ -80,5 +80,12 @@ The University of Chicago
     - Chap 9 of Bishop (2006) [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
     - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture08-em.pdf) on EM
     - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture13_hmms.pdf) on HMMs
+
+### Lecture 11 (April 27): Bayesian mixture models, conditional conjugacy, EM, Gibbs sampling
+- Suggested readings:
+    - Chap 11.1.6-11.3 of Bishop (2006) [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+    - Matthew Stephen's [lecture notes](https://stephens999.github.io/fiveMinuteStats/gibbs1.html) on Gibbs sampling
+    - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture04_mcmc.pdf) on MCMC
+    - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture07-mixtures.pdf) on Bayesian mixtures
     
 
