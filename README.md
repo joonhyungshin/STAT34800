@@ -20,6 +20,7 @@ The University of Chicago
 - [Assignment 2: Logistic regression and beta-binomial updating](https://github.com/aschein/stat_348/blob/main/assignments/hw2/hw2.ipynb). Due **Monday April 10 at 11:59pm** on GradeScope. 
 - [Assignment 3: Exponential families, conjugacy, and entropy](https://github.com/aschein/stat_348/blob/main/assignments/hw3/hw3.pdf). Due **Monday April 17 at 11:59pm** on GradeScope. 
 - [Assignment 4: HMMs, belief propagation, variable elimination](https://github.com/aschein/stat_348/blob/main/assignments/hw4/hw4.ipynb). Due **Tuesday May 2 at 11:59pm** on GradeScope. 
+- [Assignment 5: Bayesian mixture models, Gibbs sampling, EM](https://github.com/aschein/stat_348/blob/main/assignments/hw5/hw5.ipynb). Due **Sunday May 21 at 6:00pm** on GradeScope. 
 
 ## Schedule
 
@@ -95,3 +96,27 @@ The University of Chicago
     - Matthew Stephen's [lecture notes](https://stephens999.github.io/fiveMinuteStats/gibbs1.html) on Gibbs sampling
     - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture04_mcmc.pdf) on MCMC
     - Gregory Gunderson's blogpost on [ergodic Markov chains](https://gregorygundersen.com/blog/2019/10/28/ergodic-markov-chains/)
+
+### Lecture 13 (May 4): Gibbs sampling (cont.): missing data, collapsed Gibbs, Geweke testing
+- Suggested readings:
+    - Chap 24.2 of Murphy (2012) [_Machine Learning: A Probabilistic Perspective_](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf)
+    - David Blei's [lecture notes](http://www.cs.columbia.edu/~blei/fogm/2016F/doc/gibbs.pdf) on Bayesian mixtures and Gibbs sampling
+    - Stephens (2000): ["Dealing with label switching in mixture models"](https://stephenslab.uchicago.edu/assets/papers/Stephens2000b.pdf)
+    - Geweke (2004): ["Getting it Right: Joint Distribution Tests of Posterior Simulators"](http://qed.econ.queensu.ca/pub/faculty/ferrall/quant/papers/04_04_29_geweke.pdf)
+    - Roger Grosse's [blogpost](https://lips.cs.princeton.edu/testing-mcmc-code-part-2-integration-tests/) on Geweke testing
+
+### Lecture 14 (May 9): Variational inference
+- Suggested readings:
+    - Blei, Kucukelbir & McAuliffe (2017) ["Variational inference: A review for statisticians"](http://www.cs.columbia.edu/~blei/fogm/2018F/materials/BleiKucukelbirMcAuliffe2017.pdf)
+    - Chap 10.1-10.2, 10.4 of Bishop (2006) [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+    - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture09-cavi.pdf) on VI
+
+### Lecture 15 (May 11): Admixture models and LDA
+- Suggested readings:
+    - Chap 27.3 of Murphy (2012) [_Machine Learning: A Probabilistic Perspective_](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf)
+    - Scott Linderman's [slides](https://github.com/slinderman/stats305c/blob/spring2023/slides/lecture09-lda_cavi.pdf) on CAVI for LDA
+    - Jeffrey Miller's [slides](https://jwmi.github.io/BMB/12-Variational-inference-and-LDA.pdf) on CAVI for LDA
+    - Matt Gormley's [slides](https://www.cs.cmu.edu/~mgormley/courses/10701-f16/slides/lecture20-topic-models.pdf) on LDA
+    - Blei, Ng, Jordan (2003) ["Latent Dirichlet Allocation"](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)
+    - Pritchard, Stephens, Donnelly (2000) ["Inference of Population Structure Using Multilocus Genotype Data"](https://academic.oup.com/genetics/article/155/2/945/6048111)
+    
